@@ -448,11 +448,11 @@ footer{
     }
     .home img, .experience>figure>img, .contact>figure>img{
         display: flex;
-        align-content: flex-end;
+        /* align-content: flex-end; */
         justify-content: center;
         width: 450px;
         height: 300px;
-        /* border: 4px white inset; */
+
         border-radius: 1%;
         box-shadow: -20px 10px 25px 2px rgba(86, 0, 156, 0.116);
     }
@@ -463,15 +463,13 @@ footer{
         width: 10%;
     }
     .experience>.wrapper{
-
         text-align: center;
-
     }
     .home img, .experience>figure>img, .contact>figure>img{
         display: flex;
-        align-content: flex-end;
+        /* align-content: flex-end; */
         justify-content: center;
-        overflow: hidden;
+        /* overflow: hidden; */
         height: 300px;
 
         border-radius: 1%;
