@@ -223,7 +223,7 @@ figure:hover figcaption{
         .wrapper>.card1{
             grid-column: 1/3;
             
-            background: url(/media/sisFactu.png);
+            background: url("./../media/sisFactu.png");
             height: 100%;
             background-size: cover; 
             background-position: center;
@@ -261,7 +261,7 @@ figure:hover figcaption{
             }
         .wrapper>.card2{
             
-            background: url(/media/portfoliomio.png);
+            background: url("./../media/portfoliomio.png");
             height: 100%;
             background-size: cover; 
             background-position: center;
@@ -291,7 +291,7 @@ figure:hover figcaption{
             }
         .wrapper>.card3{
         
-            background: url(/media/sisFactu.png);
+            background: url("./../media/sisFactu.png");
             height: 100%;
             background-size: cover; 
             background-position: center;
@@ -322,7 +322,7 @@ figure:hover figcaption{
         
         .wrapper>.card4{
             grid-column: 2/4;
-            background: url(/media/appGifs.png);
+            background: url("./../media/appGifs.png");
             height: 100%;
             background-size: cover; 
             background-position: center;
