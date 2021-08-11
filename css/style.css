@@ -44,6 +44,10 @@ body{
     background-color: black;
     letter-spacing: .1em;
 }
+    .header>nav>a>img{
+        width: 36px;
+        height: 36px;
+    }
 
     .header nav{
         display: flex;
