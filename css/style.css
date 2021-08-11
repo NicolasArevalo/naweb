@@ -492,14 +492,14 @@ footer{
     .home>.texto>hr{
         display: none;
     }
-    .home>.texto, .contact>.card{
+    /* .home>.texto, .contact>.card{
         width: 70%;
-        font-size: medium;
-    }
+        
+    } */
 
     .home, .experience, .contact{
-        flex-direction: column;
-        justify-content: space-evenly;
+        flex-flow: column wrap;
+        justify-content: space-around;
         align-items: center;
     }
     .experience>.wrapper{
@@ -507,9 +507,21 @@ footer{
         text-align: center;
 
     }
+    footer{
+        padding-bottom: 8vh;
+    }
+    footer>span{
+        font-size: x-small;
+    }
+    .mobile{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
 
     .home img, .experience>figure>img, .contact>figure>img{
         width: 60vw;
@@ -536,19 +548,6 @@ footer{
     }
     .wrapper>.card4{
         grid-column: 1/2;
-    }
-    footer{
-        padding-bottom: 8vh;
-    }
-    footer>span{
-        font-size: x-small;
-    }
-    .mobile{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        width: 100%;
-    }
-    
+    }  
     
 }
