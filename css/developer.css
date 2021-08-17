@@ -119,7 +119,7 @@
     
 }
 .c4{
-    grid-column: 2/4;
+    grid-column: 1/4;
 }
 .logos{
     position: absolute;
@@ -141,13 +141,6 @@
     width: 30px;
     height: 25px;
 }
-/* footer{
-    display: absolute;
-    bottom: 105px;
-    left: 0;
-    right: 0;
-    color: whitesmoke;
-} */
 
 /* _________
 MEDIAQUERYS

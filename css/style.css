@@ -271,7 +271,7 @@ figure:hover figcaption{
         box-shadow: -20px 10px 25px 2px rgba(86, 0, 156, 0.116);
     }
 }
-/* rgba(15,108,161,1) */
+
 @media (max-width: 1080px) {
     .experience>.wrapper{
         text-align: center;
