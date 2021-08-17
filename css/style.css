@@ -193,6 +193,7 @@ figure:hover figcaption{
             width: 600px;
             height: 400px;
             box-shadow: -20px 10px 25px 2px rgba(86, 0, 156, 0.205);
+            
 
         }
 /* _________ */
@@ -270,7 +271,7 @@ figure:hover figcaption{
         box-shadow: -20px 10px 25px 2px rgba(86, 0, 156, 0.116);
     }
 }
-
+/* rgba(15,108,161,1) */
 @media (max-width: 1080px) {
     .experience>.wrapper{
         text-align: center;
@@ -288,8 +289,8 @@ figure:hover figcaption{
         display: none;
     }
     .home img, .experience>figure>img, .contact>figure>img{
-        width: 60vw;
-        height: 200px;
+        width: 68vw;
+        height: 180px;
     }
     .home, .experience, .contact{
         flex-flow: column wrap;
@@ -315,7 +316,7 @@ figure:hover figcaption{
 @media (max-width: 700px) {
 
     .home>.texto,.contact>.card{
-        width: 60%;
+        width: 70%;
     }
     .wrapper{
         display: grid;

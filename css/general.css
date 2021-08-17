@@ -185,6 +185,8 @@ footer{
     }
     .mobile{
         display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .mobile>a>img{
         width: 32px;
