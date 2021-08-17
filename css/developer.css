@@ -183,6 +183,7 @@ __________ */
     .screen{
         width: 95%;
         margin: auto;
+        margin-top: 15%;
         padding-bottom: 80px;
         display: flex;
 
