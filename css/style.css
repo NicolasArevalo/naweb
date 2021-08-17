@@ -157,28 +157,23 @@ figure:hover figcaption{
             }
             .wrapper>.card1>.blur>a:hover, .wrapper>.card2>.blur>a:hover, .wrapper>.card3>.blur>a:hover{
                 background-color: transparent;
-                /* color: black; */
+                text-decoration: underline;
                 transition : background-color .5s ease-in-out;
-
             }
         .wrapper>.card2{
-            
             background: url("./../media/creative.jpg");
             height: 100%;
             background-size: cover; 
             background-position: center;
             cursor: pointer;
-
         }
 
         .wrapper>.card3{
-        
             background: url("./../media/5mentarios.jpg");
             height: 100%;
             background-size: cover; 
             background-position: center;
             cursor: pointer;
-
         }
 
 
