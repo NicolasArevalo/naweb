@@ -120,7 +120,7 @@ figure:hover figcaption{
     }
         .wrapper>.card1{
             
-            background: url("./../media/sisFactu.png");
+            background: url("./../media/sisFactu.jpg");
             height: 100%;
             background-size: cover; 
             background-position: center;
@@ -133,13 +133,15 @@ figure:hover figcaption{
             justify-content: center;
             align-content: center;
             background-color: rgba(187, 187, 187, 0.301);
-            filter: blur(1px);
+            /* filter: blur(1px); */
             transition: 0.5s;
         }
             .wrapper>.card1 a, .wrapper>.card2 a, .wrapper>.card3 a{
                 color: whitesmoke;
                 padding: 0 5px 0 5px;
-                background-color: black;
+                background: linear-gradient(217deg, transparent, rgba(85,0,155,.8) 70.71%),
+                linear-gradient(127deg, transparent, rgba(65, 19, 194, 0.8) 70.71%),
+                linear-gradient(336deg, transparent,rgba(15, 108, 161, 0.8) 70.71%);
                 font-weight: 500;
                 align-self: center;
                 transition: .5s;
@@ -155,7 +157,7 @@ figure:hover figcaption{
             }
             .wrapper>.card1>.blur>a:hover, .wrapper>.card2>.blur>a:hover, .wrapper>.card3>.blur>a:hover{
                 background-color: transparent;
-                color: black;
+                /* color: black; */
                 transition : background-color .5s ease-in-out;
 
             }
