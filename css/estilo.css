@@ -14,7 +14,7 @@
     font-size: larger;
 }  
 .textoES hr{
-    transform: rotate(90deg) translateY(9em) translateX(3.5em);
+    transform: rotate(90deg) translateY(8.2em) translateX(3.5em);
 }
 @media (max-width: 1100px){
     .cardES{
