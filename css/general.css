@@ -45,14 +45,14 @@ body{
     letter-spacing: .1em;
 }
     .header>nav>a>img{
-        width: 50px;
-        height: 50px;
+        width: 100px;
+        height: 100px;
         transition: .2s;
     }
     .header>nav>a>img:hover{
-        width: 55px;
-        height: 55px;
-        transition: width 200ms ease-in, height 200ms ease-in;
+        width: 105px;
+        height: 105px;
+        transition: width 200ms ease-in, height 250ms ease-in;
     }
 
     .header nav{
@@ -189,8 +189,8 @@ footer{
         justify-content: center;
     }
     .mobile>a>img{
-        width: 32px;
-        height: 32px;
+        width: 45px;
+        height: 35px;
     }
     .languagesMobile{
         display: flex;
