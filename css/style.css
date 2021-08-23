@@ -285,7 +285,7 @@ figure:hover figcaption{
     }
     .home img, .experience>figure>img, .contact>figure>img{
         width: 68vw;
-        height: 180px;
+        height: 250px;
     }
     .home, .experience, .contact{
         flex-flow: column wrap;
@@ -312,6 +312,10 @@ figure:hover figcaption{
 
     .home>.texto,.contact>.card{
         width: 70%;
+    }
+    .home img, .experience>figure>img, .contact>figure>img{
+        width: 68vw;
+        height: 180px;
     }
     .wrapper{
         display: grid;

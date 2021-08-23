@@ -1,6 +1,2 @@
-/* 
-$(function(){
-    $("#JavascriptCalculator").click(function(){
-        alert("Building App.. ")
-    });
-}) */
+/* particlesJS('particles-js',
+) */
