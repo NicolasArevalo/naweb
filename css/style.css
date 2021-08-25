@@ -138,7 +138,7 @@ figure:hover figcaption{
         }
             .wrapper>.card1 a, .wrapper>.card2 a, .wrapper>.card3 a{
                 color: whitesmoke;
-                padding: 0 5px 0 5px;
+                padding: 18px 5px;
                 background: linear-gradient(217deg, transparent, rgba(85,0,155,.8) 70.71%),
                 linear-gradient(127deg, transparent, rgba(65, 19, 194, 0.8) 70.71%),
                 linear-gradient(336deg, transparent,rgba(15, 108, 161, 0.8) 70.71%);
