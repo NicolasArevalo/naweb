@@ -121,6 +121,7 @@ figure:hover figcaption{
         .wrapper>.card1{
             
             background: url("./../media/sisFactu.jpg");
+            
             height: 100%;
             background-size: cover; 
             background-position: center;
@@ -132,24 +133,23 @@ figure:hover figcaption{
             display: flex;
             justify-content: center;
             align-content: center;
-            background-color: rgba(187, 187, 187, 0.301);
+            background-color: rgba(73, 73, 73, 0.4);;
+            backdrop-filter: blur(3px);
             /* filter: blur(1px); */
             transition: 0.5s;
         }
             .wrapper>.card1 a, .wrapper>.card2 a, .wrapper>.card3 a{
-                color: whitesmoke;
+                color: rgb(230, 230, 230);
                 padding: 18px 5px;
-                background: linear-gradient(217deg, transparent, rgba(85,0,155,.8) 70.71%),
-                linear-gradient(127deg, transparent, rgba(65, 19, 194, 0.8) 70.71%),
-                linear-gradient(336deg, transparent,rgba(15, 108, 161, 0.8) 70.71%);
+        
                 font-weight: 500;
                 align-self: center;
-                transition: .5s;
+                transition: .3s;
                 width: 100%;
                 text-align: center;
             }
             .wrapper>.card1>.blur:hover, .wrapper>.card2>.blur:hover, .wrapper>.card3>.blur:hover{
-                background-color: rgba(255, 255, 255, 0.356);
+                background-color: rgba(73, 73, 73, 0.4);
                 filter: blur(0px);
                 font-size: 1.1em;
                 transition: background-color 400ms ease-in, filter 400ms ease-in, font-size 400ms ease-in;
@@ -157,7 +157,7 @@ figure:hover figcaption{
             }
             .wrapper>.card1>.blur>a:hover, .wrapper>.card2>.blur>a:hover, .wrapper>.card3>.blur>a:hover{
                 background-color: transparent;
-                text-decoration: underline;
+                color: white;
                 transition : background-color .5s ease-in-out;
             }
         .wrapper>.card2{
@@ -245,9 +245,8 @@ figure:hover figcaption{
             }
             #linkedin:hover,#twitter:hover,#email:hover{
                 color: rgb(86, 0, 156);
-                font-size: 1.2em;
                 
-                transition: color 350ms ease-in, font-size 0.8s ease;
+                transition: color 350ms ease-in;
             }
 
 /* _________ */

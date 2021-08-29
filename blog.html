@@ -1,24 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Nicolás Arévalo</title>
-
+    <title>Blog | Nicolas Arevalo</title>
     <link rel="icon" href="./media/LOGOna-01.ico">
-    <link rel="stylesheet" href="./css/stylemyself.css">
+    <link rel="stylesheet" href="./../css/generalBlog.css">
+    <link rel="stylesheet" href="./css/styleBlog.css">
     <script src="https://kit.fontawesome.com/d5d7b8695d.js" crossorigin="anonymous"></script>
 
+
 </head>
+
 <body>
-    <div class="building">
-        <span>This site isn't ready. But soon.</span>
+    <header class="header">
+        <nav>
+            <a href="#"><img src="./media/LOGOna-01.png" alt="logo"></a>
+            <ul>
+                <li><a href="./index.html" target="_blank" id="per">Home</a></li>
+            </ul>
+            <div class="languages">
+                <span>Languages</span>
+                <figure>
+                    <a href="./"><img src="./media/eeuu.ico" alt="spain Flag"></a>
+                </figure>
+                <figure>
+                    <a href="./es.html"><img src="./media/spain.ico" alt="spain Flag"></a>
+                </figure>
+            </div>
+        </nav>
+    </header>
+    <div id="particles-js"></div>
+    <div class="container">
+        <div class="notes">
+
+            <div class="prev-note">
+                <h5>Conciencia</h5>
+                <div class="go">
+                    <button class="go" onclick="mostrarNota(5)">Show note</button>
+                </div>
+            </div>
+            <div class="prev-note">
+                <h5>5mentarios podcast</h5>
+                <div class="go">
+                    <button class="go" onclick="mostrarNota(4)">Show note</button>
+                </div>
+            </div>
+            <div class="prev-note img3">
+                <img src="/media/palma.jpg" alt="">
+                <div class="go">
+                    <button class="go" onclick="mostrarNota(3)">Show note</button>
+                </div>
+            </div>
+            <div class="prev-note img2">
+                <img src="/media/luna.jpg" alt="">
+                <div class="go">
+                    <button class="go" onclick="mostrarNota(2)">Show note</button>
+                </div>
+            </div>
+            <div class="prev-note img1">
+                <img src="/media/iglesia.jpg" alt="">
+                <div class="go">
+                    <button class="go" onclick="mostrarNota(1)">Show note</button>
+                </div>
+            </div>
+
+        </div>
+        <h3 id="titleofnote">Note:</h3>
         <br>
-        <figure>
-            <img src="/media/build.png" alt="">
-        </figure>
-        
+        <span id="pleaseselectanote">Please select a note.</span>
+        <div class="show">
+
+            <div class="note">
+                <h1>Conciencia</h1><br>
+                <p>This story is in private mode 'cause it's in a competition. You'll be able to read it soon. For now I
+                    can tell you that is amazing.</p>
+            </div>
+
+            <div class="note">
+                <h1>5mentarios podcast</h1><br>
+                <p>This is my podcast. It's in spanish (for now ;). In a try to read more, I decide to create a podcast
+                    reading books (taking it as a job make me more committed).
+                    At this day, it doesn't have listeners, actually, I think the one of two reps are mine when I test
+                    it haha. But that made a compromise in me. Now I'm periodically reading. The initial mind was to
+                    read
+                    only Colombian books, to highlight the Colombian writers (and let me know them in their books for my
+                    own culture); but
+                    I think that eventually I'mma read other books, there is some much books I want to read, so I will
+                    make a change in the style of the brand, but shhh, nobody knows. </p>
+                <br>
+                <iframe src="https://anchor.fm/nicols-arvalo/embed" height="102px" width="400px" frameborder="0"
+                    scrolling="no"></iframe>
+            </div>
+
+            <div class="note img3">
+                <h1>La palma</h1>
+                <br>
+                <p>This picture was taken in Neiva, do you know where is Neiva? I found out it in my geography class.
+                    But it's more than something in the map.
+                </p>
+                <p> There is a lot in this planet, you know? Each place cold or hot, rich or poor, got its own magic.
+                    We always say the same: <em>we are tiny in this universe</em> , but that phrase is just inertia. We
+                    just repeat it. Please, take a moment to think how many lifes
+                    there's around you. What about in your country? Think of the universe. Could there be aliens? If we
+                    are
+                    that tiny, why not? so insignificant, but with a whole universe inside us.</p>
+            </div>
+            <div class="note img2">
+                <h1>Moon</h1><br>
+                <p>As you can see, I like the photography. I want to buy a professional camera and take better pics. But
+                    well, I've always been a moon fan. As I typed in Palma's note, I think we're so insignificant in
+                    this
+                    universe, and a proof of it is the moon, look at it, what you can see? from here it's just a
+                    ball no more than 1 or 2 cm. Dimension that. Its radio is of 1.737,4 km. And we just see a couple
+                    cm. </p>
+                <p>Always brightning. A few days more than others, but there is she, showing us how tiny we're.</p>
+            </div>
+            <div class="note img1">
+                <h1>Iglesia</h1><br>
+                <p>Where I live is a town, and as a normal town in Colombia, it has a central park. Usually, it has the
+                    bus station there, or close.
+                    And the most turistic place in the towns around Colombia is the church, as you can see in the
+                    picture. Why that matter? Actually I think it doesn't matter at all. But well, you're here reading
+                    me, tell me you: why that matter? </p>
+                <legend>Maybe throught twitter...</legend>
+            </div>
+        </div>
+        <div class="contact" id="Contact">
+            <div class="card">
+                <ul>
+                    <li><a href="https://www.instagram.com/__nico4/" target="_blank"><i id="instagram"
+                                class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://www.twitter.com/lunago28" target="_blank"><i id="twitter"
+                                class="fab fa-twitter"></i></a></li>
+
+                </ul>
+            </div>
+        </div>
+
     </div>
+    <nav class="mobile">
+        <a href="./index.html"><img src="./media/LOGOna-01.ico" alt=""></i></a>
+        <ul>
+            <li><a href="./index.html" id="conMobile"><i class="fas fa-home"></i></i></a></li>
+        </ul>
+        <div class="languagesMobile">
+            <figure>
+                <a href="./"><img src="./media/eeuu.ico" alt="eeuu Flag"></a>
+            </figure>
+            <figure>
+                <a href="./es.html"><img src="./media/spain.ico" alt="spain Flag"></a>
+            </figure>
+        </div>
+    </nav>
+
+
+    <script src="/js/particles.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/blog.js"></script>
+
+
 </body>
+
 </html>
