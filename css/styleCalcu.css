@@ -1,0 +1,77 @@
+textarea{
+    resize: none;
+}
+
+.container{
+    float: right;
+    width: 90%;
+    height: 100vh;
+    margin-bottom: 50px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculadora{
+    
+    box-shadow: 1px 1px 2px 2px rgb(236, 236, 236);
+    width: auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+
+    background: white;
+    padding: 15px;
+    border-radius: 7px;
+
+}
+textarea{
+    box-shadow: 1px 1px 2px 2px rgb(236, 236, 236);
+    width: 100%;
+    border: none;
+    text-align: right;
+    padding-top: 6%;
+}
+.screen{
+    width: 90%;
+}
+
+button{
+    width: 3em;
+    height: 3em;
+
+    background-color: white;
+    box-shadow: 1px 1px 2px 2px rgb(236, 236, 236);
+    border: 0;
+    border-radius: 5px;
+    font-size: large;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(245, 245, 245);
+}
+
+.buttons{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    
+}
+.numbers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: .5em;
+    padding: 5px;
+}
+#igual{
+    width: auto;
+    grid-column: 2/4;
+}
+.tools{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: .5em;
+    padding: 5px 5px 5px 20px;
+}
