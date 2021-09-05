@@ -169,6 +169,16 @@ iframe{
     /* width: 80%;
     height: auto; */
 }
+h3{
+    padding-bottom: 7px;
+    letter-spacing: .1em;
+    color: rgb(128, 128, 128);
+}
+#fecha{
+    color: rgb(128, 128, 128);
+    font-weight: 200;
+    padding-bottom: 10px;
+}
 
 
 /* _________ */
