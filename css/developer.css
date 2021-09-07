@@ -46,6 +46,7 @@
     justify-content: center;
     position: relative;
     transition: 0.5s;
+    min-height: 180px;
 }
 
 .go{
@@ -97,7 +98,7 @@
     background-size: cover;
 }
 .card:nth-child(3):hover{
-    background-image: url(./../media/sisFactu.jpg);
+    background-image: url(./../media/calculator.jpg);
     background-position: center;
     background-repeat: none;
     background-size: cover;
@@ -122,7 +123,7 @@
     
 }
 .c4{
-    grid-column: 1/4;
+    grid-column: 2/4;
 }
 .logos{
     position: absolute;
@@ -233,7 +234,8 @@ __________ */
 @media (max-width: 500px) {
 
     .screen{
-        padding-bottom: 0%; 
+        height: auto;
+        margin: 0; 
     }
     
     
