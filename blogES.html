@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Este blog me permite compartir mis ideas, poder plasmarlas en la red para que las personas entiendan la manera en la que pienso y tal vez disfruten y descubran cosas que no sabían."> 
+    <meta name="description"
+        content="Este blog me permite compartir mis ideas, poder plasmarlas en la red para que las personas entiendan la manera en la que pienso y tal vez disfruten y descubran cosas que no sabían.">
     <title>Blog en español | Nicolas Arevalo</title>
     <link rel="icon" href="./media/LOGOna-01.ico">
     <link rel="stylesheet" href="./../css/generalBlog.css">
@@ -18,7 +19,8 @@
 <body>
     <header class="header">
         <nav>
-            <a href="https://www.nicolasarevalo.tk/es"><img src="./media/LOGOna-01.png" alt="logo Nicolas Arevalo web"></a>
+            <a href="https://www.nicolasarevalo.tk/es"><img src="./media/LOGOna-01.png"
+                    alt="logo Nicolas Arevalo web"></a>
             <ul>
                 <li><a href="https://nicolasarevalo.tk/es" target="_blank" id="per">Inicio</a></li>
             </ul>
@@ -37,39 +39,45 @@
     <div class="container">
         <div class="notes">
             <div class="prev-note">
+                <h5>Arcoíris</h5>
+                <div class="go">
+                    <button class="go" onclick="mostrarNota(7)">Mostrar...</button>
+                </div>
+            </div>
+            <div class="prev-note">
                 <h5>¿Qué es la belleza?</h5>
                 <div class="go">
-                    <button class="go" onclick="mostrarNota(6)">Mostrando...</button>
+                    <button class="go" onclick="mostrarNota(6)">Mostrar...</button>
                 </div>
             </div>
             <div class="prev-note">
                 <h5>Conciencia</h5>
                 <div class="go">
-                    <button class="go" onclick="mostrarNota(5)">Mostrando...</button>
+                    <button class="go" onclick="mostrarNota(5)">Mostrar...</button>
                 </div>
             </div>
             <div class="prev-note">
                 <h5>5mentarios podcast</h5>
                 <div class="go">
-                    <button class="go" onclick="mostrarNota(4)">Mostrando...</button>
+                    <button class="go" onclick="mostrarNota(4)">Mostrar...</button>
                 </div>
             </div>
             <div class="prev-note img3">
-                <img src="/media/palma.jpg"  alt="Palma por Nicolas Arevalo">
+                <img src="/media/palma.jpg" alt="Palma por Nicolas Arevalo">
                 <div class="go">
-                    <button class="go" onclick="mostrarNota(3)">Mostrando...</button>
+                    <button class="go" onclick="mostrarNota(3)">Mostrar...</button>
                 </div>
             </div>
             <div class="prev-note img2">
-                <img src="/media/luna.jpg"  alt="Luna por Nicolas Arevalo web">
+                <img src="/media/luna.jpg" alt="Luna por Nicolas Arevalo web">
                 <div class="go">
-                    <button class="go" onclick="mostrarNota(2)">Mostrando...</button>
+                    <button class="go" onclick="mostrarNota(2)">Mostrar...</button>
                 </div>
             </div>
             <div class="prev-note img1">
-                <img src="/media/iglesia.jpg"  alt="Iglesia por Nicolas Arevalo web">
+                <img src="/media/iglesia.jpg" alt="Iglesia por Nicolas Arevalo web">
                 <div class="go">
-                    <button class="go" onclick="mostrarNota(1)">Mostrando...</button>
+                    <button class="go" onclick="mostrarNota(1)">Mostrar...</button>
                 </div>
             </div>
 
@@ -78,6 +86,16 @@
         <br>
         <span id="pleaseselectanote">Por favor selecciona una nota.</span>
         <div class="show">
+
+            <div class="note">
+                <h1>Arcoiris</h1><br>
+                <h5 id="fecha">por Nicolás Arévalo, 2021.</h5>
+                <p>Es interesante ver los arcoíris, ¿no? Eso estuve pensando la última vez que ví uno. Pensemos que el arcoíris solo sale cuando hay lluvia y cuando hay sol,
+                    cuánto bien nos hace la lluvia y el sol. Hay muchas historias al rededor del arcoíris, algunas personas lo ven como un símbolo religioso, otros como algo normal, incluso.
+                    Pero la manera en la que yo lo veo es diferente. Creo que la tierra quiere agradecerle a la lluvia y a sol por lo que hacen, teniendo en cuenta que son fundamentales,
+                    creo que esa es la manera en la que la tierra puede mostrar que le están haciendo bien. Hagamos el bien, que tal vez alguien algún día nos regale un arcoíris.
+                </p>
+            </div>
 
             <div class="note">
                 <h1>¿Qué es la belleza?</h1><br>
@@ -170,12 +188,14 @@
 
             <div class="note">
                 <h1>Conciencia</h1><br>
+                <h5 id="fecha">por Nicolás Arévalo, 2021.</h5>
                 <p>Esta historia está en modo privado porque está en un concurso. Lo podrás leer pronto. Te puedo
                     adelantar que es increíble.</p>
             </div>
 
             <div class="note">
                 <h1>5mentarios podcast</h1><br>
+                <h5 id="fecha">por Nicolás Arévalo, 2021.</h5>
                 <p>Este es mi podcast. Está en español por ahora. Tratando de leer más, de generar ese hábito, decidí
                     crear este podcast
                     leyendo libros (porque si lo tomo como un "trabajo" me compromete más).
@@ -195,6 +215,7 @@
             <div class="note img3">
                 <h1>La palma</h1>
                 <br>
+                <h5 id="fecha">por Nicolás Arévalo, 2021.</h5>
                 <p>Esta foto fue tomada en Neiva, ¿sabes dónde es Neiva? Yo lo supe en mi clase de geografía. Pero es
                     más que algo en el mapa.
                 </p>
@@ -208,6 +229,7 @@
             </div>
             <div class="note img2">
                 <h1>Luna</h1><br>
+                <h5 id="fecha">por Nicolás Arévalo, 2021.</h5>
                 <p>Como puedes ver, me gusta la fotografía. Quiero comprar una cámara profesional y tomar mejores fotos.
                     Pero bueno.
                     Siempre he sido un fan de la luna. Como escribí en la nota de <em>La Palma</em>, creo que somos nada
@@ -220,6 +242,7 @@
             </div>
             <div class="note img1">
                 <h1>Iglesia</h1><br>
+                <h5 id="fecha">por Nicolás Arévalo, 2021.</h5>
                 <p>Vivo en un pueblo, y como cualquier pueblo en Colombia, tiene un parque central. Normalmente, tiene
                     su terminal de transporte y comercio ahí, o cerca.
                     Y la parte más turística es su iglesia, como puedes ver en la foto. ¿Y eso qué tiene que ver?
