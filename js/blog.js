@@ -5,7 +5,7 @@ var notaAnterior;
 function mostrar(x) {
     document.querySelector(`.note:nth-last-child(${x})`).style.display = "flex";
     document.querySelector(`.note:nth-last-child(${x})`).style.height = "auto";
-    document.querySelector(`.note:nth-last-child(${x})`).style.padding = "20px 20px 20px 20px";
+    document.querySelector(`.note:nth-last-child(${x})`).style.padding = "50px 20px 40px 20px";
     
 }
 

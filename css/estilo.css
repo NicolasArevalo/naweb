@@ -7,7 +7,7 @@
 .textoES{
     display: flex;
     flex-flow: column wrap;
-    width: 50%;
+    width: 40%;
     align-content: center;
     justify-content: center;
 
